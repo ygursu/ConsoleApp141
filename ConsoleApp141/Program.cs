@@ -1,0 +1,14 @@
+﻿double sayi1 = 0, sayi2 = 0, topla = 0, cikar = 0, carp = 0, bol = 0;
+Console.Write("Birinci sayıyı giriniz:");
+sayi1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("İkinci sayıyı giriniz:");
+sayi2 = Convert.ToDouble(Console.ReadLine());
+topla = sayi1 + sayi2;
+cikar = sayi1 - sayi2;
+carp = sayi1 * sayi2;
+bol = sayi1 / sayi2;
+Console.WriteLine("Topla= {0}", topla);
+Console.WriteLine("Çıkar= {0}", cikar);
+Console.WriteLine("Çarp= {0}", carp);
+Console.WriteLine("Böl= {0}", bol);
+Console.ReadKey();
